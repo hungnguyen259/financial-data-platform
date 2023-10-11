@@ -1,4 +1,10 @@
-Các thành phần trong source code:
+# Project III: Financial Data Platform
+Hệ thống thu thập dữ liệu chứng khoán và xử lý, phân tích các chỉ số chứng khoán được người dùng quan tâm, bao gồm stock history, cash flow, general rating, bussiness operation rating, financial health rating, valuation rating, financial ratio, income statement,...
+
+Các công nghệ sử dụng: Spark, Airflow, TimescaleDB,...
+
+
+Cấu trúc thư mục trong source code:
     
 - SQL: chứa các query sql để đơn giản hóa việc sử dụng: tạo bảng, xóa bảng, xóa dữ liệu
     
