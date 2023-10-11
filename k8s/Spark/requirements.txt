@@ -1,5 +1,0 @@
-requests
-numpy
-pandas
-vnstock
-# /home/airflow/.local/bin/spark-submit --master yarn --jars /opt/***/dags/postgresql-42.5.1.jar /opt/***/dags/data_to_db.py --table listing_companies --init True
