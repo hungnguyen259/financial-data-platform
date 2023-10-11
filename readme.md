@@ -1,28 +1,28 @@
 Các thành phần trong source code:
     
-    - SQL: chứa các query sql để đơn giản hóa việc sử dụng: tạo bảng, xóa bảng, xóa dữ liệu
+- SQL: chứa các query sql để đơn giản hóa việc sử dụng: tạo bảng, xóa bảng, xóa dữ liệu
     
-    - k8s: chứa các config để cài đặt cluster 
+- k8s: chứa các config để cài đặt cluster 
     
-        + Airflow: config của Airflow
+  + Airflow: config của Airflow
     
-        + Spark: config của Spark
+  + Spark: config của Spark
     
-    - Airflow: thư mục sẽ được mount vào các node worker của cluster k8s
+- Airflow: thư mục sẽ được mount vào các node worker của cluster k8s
     
-        + dags: chứa các file:
+   + dags: chứa các file:
     
-            . DAG: chứa source code của các dag tương ứng
+     . DAG: chứa source code của các dag tương ứng
     
-            . Spark App
+     . Spark App
     
-                data_to_db_demo.py: dùng để demo và debug
+       data_to_db_demo.py: dùng để demo và debug
     
-                data_to_db.py: file demo đã loại bỏ các lệnh in
+       data_to_db.py: file demo đã loại bỏ các lệnh in
     
-            . Driver JDBC dành cho postgres
+     . Driver JDBC dành cho postgres
     
-        + logs: chứa log của Airflow
+    + logs: chứa log của Airflow
     
-    - guide.docx: Hướng dẫn cài đặt
+- guide.docx: Hướng dẫn cài đặt
 
